@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body, html{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+div#root > div.container > nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    background-color: #F55A5A;
+    color: white;
+    height: 55px;
+}
+
+div#root > div.container > nav > img{
+    width: 24px;
+}
+
+div#root > div.container > main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+div#root > div.container > main > div.card-list{
+    display: flex;
+    gap: 19px;
+    width: 470px;
+    height: 168px;
+    margin-top: 45px;
+    padding: 0px;
+}
+
+div#root > div.container > main > div.card-list > img{
+    width: 125px;
+    height: 168px;
+    border-radius: 5px;
+}
+
+div#root > div.container > main > div.card-list > section.information{
+    align-self: center;
+}
+
+div#root > div.container > main > div.card-list > section.information > p.location{
+    font-size: 10px;
+    font-weight: 400;
+}
+
+div#root > div.container > main > div.card-list > section.information > p.location > img{
+    margin-right: 4px;
+}
+
+div#root > div.container > main > div.card-list > section.information > p.location > a{
+    margin-left: 12px;
+    color: #918E9B;
+}
+
+div#root > div.container > main > div.card-list > section.information > h1{
+    height: 40px;
+    margin: 4px 0px 7px 0px;
+    font-size: 25px;
+    font-weight: 700px;
+}
+
+div#root > div.container > main > div.card-list > section.information > h3{
+    font-size: 10px;
+    font-weight: 700;
+    padding-bottom: 9px;
+}
+
+div#root > div.container > main > div.card-list > section.information > p.description{
+    font-size: 10px;
+    font-weight: 400;
+}
